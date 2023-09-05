@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {NewsApiService} from "../../services/news-api.service";
-import {LogoApiService} from "../../../core/services/logo-api.service";
+import {LogoApiService} from "../../../shared/services/logo-api.service";
 
 @Component({
   selector: 'app-nav',
